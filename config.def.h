@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Fira Code:pixelsize=13:antialias=true:autohint=true";
+char font[] = "Fira Code:pixelsize=14:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -60,7 +60,7 @@ unsigned int cursorthickness = 2;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 50;
+static int bellvolume = 40;
 
 /* default TERM value */
 char termname[] = "st-256color";
@@ -83,7 +83,7 @@ char termname[] = "st-256color";
 static unsigned int tabspaces = 4;
 
 /* bg opacity */
-unsigned int alpha = 0xcc;
+unsigned int alpha = 0xdd;
 
 /* Terminal colors (16 first used in escape sequence) */
 const char *colorname[] = {
