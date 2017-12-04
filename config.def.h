@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+char font[] = "Fira Code:pixelsize=13:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -32,7 +32,7 @@ float chscale = 1.0;
  *
  * More advanced example: " `'\"()[]{}"
  */
-static char worddelimiters[] = " ";
+static char worddelimiters[] = " `'\"()[]{}";
 
 /* selection timeouts (in milliseconds) */
 unsigned int doubleclicktimeout = 300;
@@ -60,7 +60,7 @@ unsigned int cursorthickness = 2;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 50;
 
 /* default TERM value */
 char termname[] = "st-256color";
@@ -80,7 +80,7 @@ char termname[] = "st-256color";
  *
  *	stty tabs
  */
-static unsigned int tabspaces = 8;
+static unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 const char *colorname[] = {
