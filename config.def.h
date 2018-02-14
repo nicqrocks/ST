@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Fira Code:pixelsize=14:antialias=true:autohint=true";
+char font[] = "Mononoki:pixelsize=16:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
